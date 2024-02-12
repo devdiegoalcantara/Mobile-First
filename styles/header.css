@@ -84,7 +84,9 @@
 
     .opções {
         display: flex;
+        
     }
+    
 
     .opções__item {
         padding: 0 1em;
@@ -104,4 +106,12 @@
         display: none;
     }
     
+    .opções__botão{
+        display: none;
+    }
+
+    .opções__botão:checked~.lista-menu {
+        display: block;
+        width: auto;
+    }
 }
