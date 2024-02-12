@@ -17,7 +17,7 @@
 }
 
 .tópicos__item {
-    margin: 1.5em 0.5em;
+    margin: 2em 0.5em;
 }
 
 .tópicos__link {
@@ -29,3 +29,12 @@
     font-weight: 700;
 }
 
+@media screen and (min-width: 1024px) {
+    .tópicos__titulo {
+        font-size: 24px;
+    }
+
+    .tópicos__link {
+        font-size: 24px;
+    }
+}
