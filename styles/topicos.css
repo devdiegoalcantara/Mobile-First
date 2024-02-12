@@ -22,20 +22,37 @@
 
 .tópicos__link {
     color: var(--branco);
-    padding: 1em;
+    padding: 1.5em 1.5em;
     background-color: var(--laranja);
     text-decoration: none;
     font-size: 14px;
     font-weight: 700;
 }
 
+.invertido {
+    display: none;
+}
+
 @media screen and (min-width: 1024px) {
     .tópicos__titulo {
         font-size: 24px;
+        padding-bottom: 1em;
     }
 
     .tópicos__link {
         font-size: 24px;
+        padding: 1em;
+    }
+
+    .tópicos__item {
+       padding: 5px 0;
+    }
+    .tópicos {
+        display: none;
+        padding: 4em 15vw;
+    }
+    .invertido {
+        display: block;
     }
 }
 
