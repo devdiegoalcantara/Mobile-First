@@ -38,3 +38,15 @@
         font-size: 24px;
     }
 }
+
+@media screen and (min-width: 1728px){
+    .tópicos {
+        padding: 4em 30vw;
+    }
+
+    .tópicos__titulo {
+        padding-bottom: 1em;
+        font-size: 32px;
+        font-weight: 300;
+    }
+}
