@@ -60,6 +60,9 @@
     display: none;
 }
 
+.container__texto {
+    display: none;
+}
 
 @media screen and (min-width: 1024px) {
     .container__titulo,
@@ -101,5 +104,28 @@
     .opções__botão:checked~.lista-menu {
         display: block;
         width: auto;
+    }
+}
+
+@media screen and (min-width: 1728px) {
+    
+    .container__link {
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        color: var(--preto);
+    }
+
+    .cabecalho {
+        padding: 0 2em;
+    }
+
+    .opções {
+        margin-right: auto;
+        padding-left: 3em;
+    }
+
+    .container__texto {
+        display: block;
     }
 }
